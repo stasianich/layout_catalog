@@ -1,7 +1,9 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-rows: 60px;
+  grid-template-columns: 40px 1fr;
+  grid-template-areas: "logo empty nav";
+  
   height: 60px;
   padding: 0 50px;
   background: $white-custom-color;

@@ -12,6 +12,7 @@
   line-height: 16px;
   background-color: $blue-custom-color;
   border-radius: 5px;
+  transition: all 800ms;
 
   &:hover {
     color: $blue-custom-color;

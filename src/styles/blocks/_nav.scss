@@ -1,4 +1,6 @@
 .nav {
+  grid-area: nav;
+  
   &__list {
     display: flex;
     padding: 0;
@@ -24,6 +26,7 @@
     text-transform: uppercase;
     line-height: 60px;
     position: relative;
+    transition: all 400ms;
   
     &:hover {
       color: $blue-custom-color;
